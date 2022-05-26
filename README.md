@@ -3,11 +3,11 @@
 A small personal project that consists of rendering the spiral graphic representation of the golden ratio, the project is written in C++ using the OpenGL API for graphics rendering and the SFML and GLM libraries to support the creation of consistent windows and matrix operations.
 
 ## You will need:
-- A C++ Compiler      (**MAC OS not yet supported !** In the **Windows OS**, please use the **MinGW** , MSVC suport is coming...)
-- CMake &nbsp &nbsp -> https://cmake.org
-- Ninja Generator &nbsp &nbsp -> https://ninja-build.org
-- SFML             -> https://www.sfml-dev.org
-- GLM              -> https://github.com/g-truc/glm
+- A C++ Compiler            (**MAC OS not yet supported !** In the **Windows OS**, please use the **MinGW** , MSVC suport is coming...)
+- CMake &nbsp;           -> https://cmake.org
+- Ninja Generator &nbsp; -> https://ninja-build.org
+- SFML &nbsp;            -> https://www.sfml-dev.org
+- GLM  &nbsp;            ->https://github.com/g-truc/glm
 
 > Note: If you are using **Windows OS**, the necessary libraries will already be included in the project root directory (in the **lib** folder). However, for the execution of the project it will be necessary to include the dynamic libraries (**.dll's**) of the SFML library (present in the **bin** folder of the same) for its environment variables
 
