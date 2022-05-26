@@ -10,7 +10,7 @@ A small personal project that consists of rendering the spiral graphic represent
 - SFML             -> https://www.sfml-dev.org
 - GLM              -> https://github.com/g-truc/glm
 
-> Note: If you are using Windows OS, the necessary libraries will already be included in the project root directory (in the lib folder). However, for the execution of the project it will be necessary to include the dynamic libraries (.dll's) of the SFML library (present in the bin folder of the same) for its environment variables
+> Note: If you are using **Windows OS**, the necessary libraries will already be included in the project root directory (in the lib folder). However, for the execution of the project it will be necessary to include the dynamic libraries (.dll's) of the SFML library (present in the bin folder of the same) for its environment variables
 
 ## How Build:
 
