@@ -1,12 +1,14 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <math.h>
 
 #include <SFML/Window/Event.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/OpenGL.hpp>
 
 #include <gl_init.hpp>
+#include <context_drawn.hpp>
 
 std::string title_name = "OpengGL Golden Ratio";
 bool running    = true,
@@ -56,11 +58,9 @@ int main()
             }
         }
 
-        /*    
-            Viewport
-            3D init
-            3D drawn
-        */
+        glViewport(0, 0, window_size.x, window_size.y);
+        opengl_3d_init();
+        drawn_3d_context();
        
         window.display();
     }
