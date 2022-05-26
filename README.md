@@ -1,8 +1,8 @@
 # OpenGL Golden Ratio Spiral
 
-![Golden Ratio](https://user-images.githubusercontent.com/63611415/170500662-d090543b-d673-4611-8535-464a5a346ec0.png)
-
 A small personal project that consists of rendering the spiral graphic representation of the golden ratio, the project is written in C++ using the OpenGL API for graphics rendering and the SFML and GLM libraries to support the creation of consistent windows and matrix operations.
+
+![Golden Ratio](https://user-images.githubusercontent.com/63611415/170500662-d090543b-d673-4611-8535-464a5a346ec0.png)
 
 ## You will need:
 - A C++ Compiler      (**MAC OS not yet supported !** In the **Windows OS**, please use the **MinGW** , MSVC suport is coming...)
